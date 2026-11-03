@@ -1,0 +1,42 @@
+# Python/editor and OS files
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Vivado working directories and cached build output
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.vcd
+*.vpd
+*.wcfg
+webtalk*.xml
+webtalk*.jou
+vivado*.xml
+vivado*.log
+
+# Locally generated hardware artifacts (do not claim or commit unverified builds)
+*.bit
+*.bin
+*.ltx
+*.dcp
+*.xsa
+*.hwh
+
+# Temporary/backup files
+*.bak
+*.tmp
+*~
